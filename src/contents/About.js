@@ -4,8 +4,8 @@ import React, { Component } from 'react';
 class About extends Component {
     render() {
         return (
-            <div className="condiv">
-            <h1>About Me</h1>
+            <div className="col-home"> 
+            <h1 className="subtopic">About Me</h1>
             <h4>Hey there,</h4>
             <h1>I am Zary G. Manning</h1>
             <h3>Front End Web <u>Developer</u> | UI/UX <u>Designer</u></h3>

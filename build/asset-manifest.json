@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio-website-2/static/css/main.2c9bcc66.chunk.css",
-    "main.js": "/portfolio-website-2/static/js/main.c1ad9312.chunk.js",
-    "main.js.map": "/portfolio-website-2/static/js/main.c1ad9312.chunk.js.map",
+    "main.css": "/portfolio-website-2/static/css/main.0d3e1296.chunk.css",
+    "main.js": "/portfolio-website-2/static/js/main.d8493685.chunk.js",
+    "main.js.map": "/portfolio-website-2/static/js/main.d8493685.chunk.js.map",
     "runtime-main.js": "/portfolio-website-2/static/js/runtime-main.29bf2d69.js",
     "runtime-main.js.map": "/portfolio-website-2/static/js/runtime-main.29bf2d69.js.map",
-    "static/js/2.2d107463.chunk.js": "/portfolio-website-2/static/js/2.2d107463.chunk.js",
-    "static/js/2.2d107463.chunk.js.map": "/portfolio-website-2/static/js/2.2d107463.chunk.js.map",
+    "static/js/2.03bde2c2.chunk.js": "/portfolio-website-2/static/js/2.03bde2c2.chunk.js",
+    "static/js/2.03bde2c2.chunk.js.map": "/portfolio-website-2/static/js/2.03bde2c2.chunk.js.map",
     "index.html": "/portfolio-website-2/index.html",
-    "precache-manifest.d971e55c421808725597178f1fcb5556.js": "/portfolio-website-2/precache-manifest.d971e55c421808725597178f1fcb5556.js",
+    "precache-manifest.be9c607d765a7f0d680eb463d1261bc0.js": "/portfolio-website-2/precache-manifest.be9c607d765a7f0d680eb463d1261bc0.js",
     "service-worker.js": "/portfolio-website-2/service-worker.js",
-    "static/css/main.2c9bcc66.chunk.css.map": "/portfolio-website-2/static/css/main.2c9bcc66.chunk.css.map",
-    "static/js/2.2d107463.chunk.js.LICENSE.txt": "/portfolio-website-2/static/js/2.2d107463.chunk.js.LICENSE.txt",
+    "static/css/main.0d3e1296.chunk.css.map": "/portfolio-website-2/static/css/main.0d3e1296.chunk.css.map",
+    "static/js/2.03bde2c2.chunk.js.LICENSE.txt": "/portfolio-website-2/static/js/2.03bde2c2.chunk.js.LICENSE.txt",
     "static/media/MyPic.jpg": "/portfolio-website-2/static/media/MyPic.188fbd6a.jpg",
     "static/media/App.css": "/portfolio-website-2/static/media/blur2.be841df9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.29bf2d69.js",
-    "static/js/2.2d107463.chunk.js",
-    "static/css/main.2c9bcc66.chunk.css",
-    "static/js/main.c1ad9312.chunk.js"
+    "static/js/2.03bde2c2.chunk.js",
+    "static/css/main.0d3e1296.chunk.css",
+    "static/js/main.d8493685.chunk.js"
   ]
 }
