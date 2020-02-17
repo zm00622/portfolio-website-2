@@ -20,7 +20,7 @@ class Navbar extends Component {
     };
     render() {
         return (
-            <div class="col-nav">
+            <nav class="col-nav">
             <ul>
             <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
             <Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
@@ -28,7 +28,7 @@ class Navbar extends Component {
             <Navitem item="Skills" tolink="/skills"  activec={this.activeitem}></Navitem>
             <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
             </ul>
-            </div>            
+            </nav>        
             )
         }
     }

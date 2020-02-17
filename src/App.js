@@ -1,9 +1,6 @@
 import React from 'react';
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Home from './contents/Home';
 import About from './contents/About';
@@ -15,22 +12,15 @@ function App() {
   return (
     <Router>
     <div className="App">
-    <Navbar />
-    <Route exact path="/">
-    <Home />
-    </Route>
-    <Route path="/about">
-    <About />
-    </Route>
-    <Route path="/education">
-    <Education />
-    </Route>
-    <Route path="/skills">
-    <Skills />
-    </Route>
-    <Route path="/contact">
-    <Contact />
-    </Route>
+      <Navbar />
+      <Route path="/portfolio-website-2" exact component={Home} />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/education" component={Education} />
+        <Route path="/skills" component={Skills} />
+        <Route path="/contact" component={Contact} /> 
+      </Switch>      
     </div>
     </Router>
     );
