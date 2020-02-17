@@ -33,6 +33,15 @@ a {
   color: white;
 }
 
+::-webkit-scrollbar {
+  width: 2px;
+  scrollbar-color: transparent;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
 /* For 13 inch Desktop: */
 /*Background*/
 .App {
@@ -51,8 +60,7 @@ a {
   flex-direction: column;
   width: 100%;
   height: 100vh;
-  overflow-x: auto; 
-  overflow-y: auto;
+  overflow: scroll;
 }
 
 .col-nav {
@@ -64,8 +72,7 @@ a {
   padding-bottom: 20px;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow-x: auto; 
-  overflow-y: auto;
+  overflow: scroll;
 }
 
 .col-nav ul {
@@ -133,8 +140,7 @@ a {
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    overflow-x: auto; 
-    overflow-y: auto;
+    overflow: scroll;
   }
   
   .col-nav {
@@ -146,8 +152,7 @@ a {
     padding-bottom: 20px;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: auto; 
-    overflow-y: auto;
+    overflow: scroll;
   }
   
   .col-nav ul {
@@ -214,8 +219,7 @@ a {
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    overflow-x: auto; 
-    overflow-y: auto;
+    overflow: scroll;
   }
   
   .col-nav {
@@ -227,8 +231,7 @@ a {
     padding-bottom: 20px;
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: auto; 
-    overflow-y: auto;
+    overflow: scroll;
   }
   
   .col-nav ul {
@@ -301,8 +304,7 @@ a {
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    overflow-x: auto; 
-    overflow-y: auto;
+    overflow: scroll;
   }
 
   /* Nav Bar */
@@ -316,8 +318,7 @@ a {
     background-image: url('./img/blur2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: auto; 
-    overflow-y: auto;
+    overflow: scroll;
   }
 
   .col-nav ul {
@@ -394,8 +395,7 @@ a {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    overflow-x: auto; 
-    overflow-y: auto;
+    overflow: scroll;
   }
 
   /* Nav Bar */
@@ -409,8 +409,7 @@ a {
     background-image: url('./img/blur2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: auto; 
-    overflow-y: auto;
+    overflow: scroll;
   }
 
   .col-nav ul {
@@ -501,8 +500,7 @@ a {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    overflow-x: auto; 
-    overflow-y: auto;
+    overflow: scroll;
   }
 
   /* Nav Bar */
@@ -516,8 +514,7 @@ a {
     background-image: url('./img/blur2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    overflow-x: auto; 
-    overflow-y: auto;
+    overflow: scroll;
   }
 
   .col-nav ul {
@@ -580,9 +577,6 @@ a {
     width: 200px;
   }
 }
-
-
-
 
 /*End of homepage styling*/
 /*Beginning of subpage styling*/
